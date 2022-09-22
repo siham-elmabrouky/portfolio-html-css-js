@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 10000px;
+  
+    font-weight: 400;
+    background-color: var(--whitecolor);
+    color: var(--blackcolor);
+    transition: var(--transition-2);
+    
+   
+}
+/*  */
+:root {
+    
+    --purplecolor: #ce69e7ce;
+    --blackcolor: #121713;
+    --greycolor: #232424;
+    --grey2: #494646;
+    --whitecolor: #fff;
+     
+    --transition-1: all 500ms ease-in-out;
+    --transition-2: all 700ms ease-in-out;
+  }
+  body.dark {
+    --whitecolor: #110e27;
+    --blackcolor: #fff;
+    --greycolor: #fff;
+    --grey2color: #fff;
+  }
+ #header{
+    height: 100vh;
+ 
+ }
+.navbar{
+ 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+.container{
+
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.list{
+    width: 50%;
+  
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.list li{
+    margin-left: 20px;
+}
+#bar1{
+    display: none;
+}
+
+ 
+ 
+ 
+ .list li a{
+    color:   #222;
+    font-size: 17px;
+    font-weight: 800;
+ }
+.list  li a:hover{
+   color: #fff; 
+ 
+}
+/* ************************************************************** */
+.color{
+    position: absolute;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    right: 0%;
+    bottom: 0%;
+    background-color: var(--purplecolor);
+    transition: var(--transition-2);
+    z-index: -1;
+}
+.mag{
+    width: 600px;
+    height: 500px;
+ 
+    z-index: 1;
+  
+   
+}
+.content{
+    background: var(--whitecolor);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sihamdev{
+    background: var(--whitecolor);
+border-radius:7px;
+    padding: 20px;
+    height: 40vh;
+    
+}
+ 
+ 
+.sihamdev .hello h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.sihamdev .hello h1 span{
+    color: var(--purplecolor);
+}
+.sihamdev  p{
+font-size: 17px;
+font-weight: 300;
+word-spacing: 5px;
+letter-spacing: 1px;
+line-height: 27px;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-bottom: 10px;
+}
+.social-media ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+ 
+    padding: 10px;
+}
+.social-media ul li a{
+    font-size: 2rem;
+    color: var(--grey2color);
+    cursor: pointer;
+}
+.social-media ul li a:hover{
+    color: var(--purplecolor);
+    transition: var(--transition-1);
+}
+#btn{
+    padding:5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    background: var(--purplecolor);
+     
+    
+}
+
+/* box */
+.box{
+    width: 300px;
+    height: 299px;
+    background:var(--blackcolor);
+}
+
+/* icon */
+.bx-moon,
+.bx-sun{
+    font-size: 1.5rem;
+}
+#sun{
+    display: none;
+}
+ .theme{
+    display: none;
+ }
+
+@media screen and (max-width: 575px) {
+#bar1{
+    cursor: pointer;
+    display: block;
+}
+    .list{
+        position: absolute;
+        top: 10vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 80vh;
+        width: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.486);
+        transform: translateX(100%);
+      display: none;
+    }
+    .list li a{
+        color: #fff;
+    }
+    #moon{
+        display: none;
+    }
+    .theme{
+        display: block;
+    }   
+}
+.showbar{
+    display: flex;
+    transform: translateX(0%);
+    transition: 0.5s;
+}
+
+
+ .fix-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+    background-color: var( --purplecolor);
+    transition: var(--transition-2);
+  }
