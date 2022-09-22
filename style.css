@@ -242,7 +242,7 @@ line-height: 27px;
     transition: var(--transition-2);
   }
   /* mobile */
-  @media screen and (max-width: 750px){
+  @media screen and (max-width: 375px){
     .content{
         flex-direction: column;
         
