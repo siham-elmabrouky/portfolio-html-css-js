@@ -276,9 +276,7 @@ line-height: 27px;
     font-weight: 700;
     letter-spacing: 2px;
 }
-.container .about-rigth p{
-    
-}
+ 
 .container .about-rigth{
      padding: 20px;
 
@@ -297,15 +295,17 @@ line-height: 27px;
     border-radius: 7px;
     margin: 30px;
     font-size: 20px;
+    color:var(--whitecolor) ;
   
     
 
 }
-.container .about-left img:hover,
+ 
 .container .about-rigth .resume:hover{
     background-color: var(--whitecolor);
     border: 2px solid var(--purplecolor);
     transition: var(--transition-2);
+  color: var(--blackcolor);
 }
 @media screen and (max-width: 575px){
     #about{
@@ -319,4 +319,10 @@ line-height: 27px;
         border-radius: 7px;
 
      }
+     .container .about-left img:hover{
+    background-color: var(--whitecolor);
+   
+    transition: var(--transition-2);
+    box-shadow: 0px 1px 10px 8px var(--purplecolor);
+}
 }
