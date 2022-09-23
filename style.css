@@ -265,9 +265,9 @@ line-height: 27px;
  align-items: center;
  justify-content: center;
 }
-.container img{
+.container .about-left img{
    /* background: var(--purplecolor); */
-   height: 90Vh;
+ 
    width: 500px;
 }
 .container .texth1{
@@ -301,6 +301,7 @@ line-height: 27px;
     
 
 }
+.container .about-left img:hover,
 .container .about-rigth .resume:hover{
     background-color: var(--whitecolor);
     border: 2px solid var(--purplecolor);
@@ -309,6 +310,13 @@ line-height: 27px;
 @media screen and (max-width: 575px){
     #about{
         height: auto;
-        margin-top: 40px;
+    
     }
+    .container .about-left img{
+        height: auto;
+        width: 500px;
+        margin-top: 122px;
+        border-radius: 7px;
+
+     }
 }
