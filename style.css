@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    height: 10000px;
+   
   
     font-weight: 400;
     background-color: var(--whitecolor);
@@ -258,8 +258,7 @@ line-height: 27px;
   }
 }
 /* about */
-#about,
-#skil{
+#about {
     height: 100vh;
  
  display: flex;
@@ -330,8 +329,6 @@ line-height: 27px;
 /* skils */
 #skil{
     height: 100vh;
-    /* border: 1px solid; */
-   
  
 }
 .text{
@@ -384,20 +381,20 @@ line-height: 27px;
 #skil{
     width: auto;
     margin-top: 100px;
-    min-height: 100vh;
+    min-height: 200vh;
      
 }
-.container-skil{
+/* .container-skil{
     min-height: 100vh;
   
-}
+} */
     .boxelement{
         height: auto;
-         
         flex-direction: column;
     }
     .boxelement .box1{
         margin-bottom: 20px;
+        width: 400px;
         height: 310px;
     }
 }
