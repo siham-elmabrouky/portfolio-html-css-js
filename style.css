@@ -382,16 +382,23 @@ line-height: 27px;
 }
 @media screen and (max-width: 575px){
 #skil{
-    min-width: 100vh;
-    align-items: center;
+    width: auto;
+    margin-top: 100px;
+    min-height: 100vh;
+     
+}
+.container-skil{
+    min-height: 100vh;
+  
 }
     .boxelement{
-
+        height: auto;
+         
         flex-direction: column;
     }
     .boxelement .box1{
         margin-bottom: 20px;
-        height: 250px;
+        height: 310px;
     }
 }
  
