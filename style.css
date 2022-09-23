@@ -258,7 +258,8 @@ line-height: 27px;
   }
 }
 /* about */
-#about{
+#about,
+#skil{
     height: 100vh;
  
  display: flex;
@@ -382,13 +383,13 @@ line-height: 27px;
 @media screen and (max-width: 575px){
 #skil{
     min-width: 100vh;
+    align-items: center;
 }
     .boxelement{
+
         flex-direction: column;
-     
     }
     .boxelement .box1{
-        width: 100%;
         margin-bottom: 20px;
         height: 250px;
     }
