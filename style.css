@@ -198,7 +198,6 @@ line-height: 27px;
 @media screen and (max-width: 768px) {
     header{
      height:auto;
-     
       padding: 20px;   
 
     }
@@ -212,7 +211,7 @@ line-height: 27px;
      
     }
     header .container  img{
-        margin-top:20px ;
+        margin-top:60px ;
         height:  auto;
       
        
@@ -291,7 +290,6 @@ line-height: 27px;
 /* about */
 #about {
     height: 100vh;
- 
  display: flex;
  align-items: center;
  justify-content: center;
@@ -341,7 +339,7 @@ line-height: 27px;
 @media screen and (max-width: 768px){
     #about{
         height: auto;
-        
+        padding: 20px;
     
     }
     .container .about-left img{
@@ -364,6 +362,7 @@ line-height: 27px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
  
 }
 .text{
@@ -431,8 +430,9 @@ line-height: 27px;
     }
     .boxelement .box1{
         margin-bottom: 20px;
-        width: 400px;
-        height: 310px;
+       max-width: 400px;
+        height: auto;
+        margin-left: 0px;
      
     }
 }
