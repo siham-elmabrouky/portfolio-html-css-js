@@ -198,10 +198,19 @@ line-height: 27px;
 @media screen and (max-width: 768px) {
     header{
      height:auto;
-         
+     
+      padding: 20px;   
 
     }
- 
+    .social-media{
+         flex-direction: column;
+     
+        align-items: flex-start;
+    }
+    .social-media ul{
+        flex-direction: column;
+     
+    }
     header .container  img{
         height: 300px;
        
@@ -264,14 +273,16 @@ line-height: 27px;
   }
   /* mobile */
   @media screen and (max-width: 768px){
+   
     .content{
         flex-direction: column;
+         
         
   }
  
   .content img{
     width: 450px;
-    height: 400px;
+   
     
   }
 }
@@ -328,6 +339,7 @@ line-height: 27px;
 @media screen and (max-width: 768px){
     #about{
         height: auto;
+        
     
     }
     .container .about-left img{
