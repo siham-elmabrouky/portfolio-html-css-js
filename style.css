@@ -506,6 +506,7 @@ line-height: 27px;
     #contact{
         height: auto;
         width: 100%;
+        padding: 20px;
   
     }
     .contact{
@@ -529,6 +530,7 @@ line-height: 27px;
     padding: 0px;
     flex-direction: column;
 }
+ 
  
  }
  
