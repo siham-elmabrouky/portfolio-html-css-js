@@ -167,7 +167,7 @@ line-height: 27px;
     font-weight: bold;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 40px;
     display: none;
     cursor: pointer;
     font-size: 2.5rem;
@@ -400,16 +400,16 @@ line-height: 27px;
 }
 @media screen and (max-width: 768px){
 #skil{
-  
-    height: auto;
      
+    height: auto;
+      
 }
 .container-skil{
    height: auto;
-  
+   
 }
     .boxelement{
-      
+       
         align-items: center;
         height: auto;
         flex-direction: column;
@@ -490,6 +490,8 @@ line-height: 27px;
 @media screen and (max-width: 768px){
     #contact{
         height: auto;
+        width: 100%;
+  
     }
     .contact{
         flex-direction:column-reverse;
@@ -497,16 +499,25 @@ line-height: 27px;
     }
   
 .left{
-     width: 100%;
+     width: auto;
 }
 .rigth{
+  
     width: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid ;
  margin-bottom: 10px;
-} }
+}
+.rigth .contentspan{
+    padding: 0px;
+    flex-direction: column;
+}
+ 
+ }
+ 
+ 
 /* footer */
 footer{
     display: flex;
