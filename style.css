@@ -212,7 +212,9 @@ line-height: 27px;
      
     }
     header .container  img{
-        height: 300px;
+        margin-top:20px ;
+        height:  auto;
+      
        
     } 
     header .container  img:hover{
@@ -281,7 +283,7 @@ line-height: 27px;
   }
  
   .content img{
-    width: 450px;
+    max-width: 300px;
    
     
   }
@@ -344,8 +346,9 @@ line-height: 27px;
     }
     .container .about-left img{
         height: auto;
-        width: 500px;
+       max-width: 300px;
         border-radius: 7px;
+     
 
      }
      .container .about-left img:hover{
